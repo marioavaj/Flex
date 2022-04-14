@@ -1,78 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>   
-    <nav>
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">What to do ⇓</a>
-                <ul>
-                <li><a href="wedding.html">Wedding</a></li>
-                <li><a href="#">Analog</a></li> 
-                <li><a href="#">Dual</a></li> 
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
-                 </ul>
-            </li> 
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slideshow.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.ss"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-        <img src="img\banner.jpg" alt="banner">
-     
-    </header>
 
-  <div class="wrapper">
-    <div class="zero">
-        <img src="img/topic-london-gettyimages-760251843-promo.jpg" alt="">
+    <title>London</title>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html" class="active">Home</a>
+      <a href="https://google.sk">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="/img/slidelondon1.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/slidelondon2.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="img/slidelondon3.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons 
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+</div>
+
+<div class="wrapper">   
+
+      <div class="zero">
+        <img src="img/topic-london-gettyimages-760251843-promo.jpg" alt="" />
         <h1>History</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,  cupiditate libero dicta? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ducimus cum laboriosam, recusandae quisquam sit a suscipit earum fugiat quae</p>
-    <img src="img\OIP.jfif" alt="">
-    </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          cupiditate libero dicta? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Neque ducimus cum laboriosam, recusandae quisquam
+          sit a suscipit earum fugiat quae
+        </p>
+        <img src="img\OIP.jfif" alt="" />
+      </div>
 
-    <div class="one">
+      <div class="one">
         <h1>Welcome to London</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, iusto perferendis iste debitis doloremque cum neque. Quidem repellat deserunt incidunt assumenda nemo distinctio, voluptatibus itaque, commodi doloribus cupiditate libero dicta?</p>
-    <img src="img\london.jfif" alt="">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, iusto perferendis iste debitis doloremque cum neque.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quas blanditiis corrupti ipsam sapiente adipisci fuga. Vitae quia animi corrupti at eveniet! Unde fugit quasi eaque esse vitae. Obcaecati, dolorum.</p>    
-</div>
-    
-    <div class="two">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          iusto perferendis iste debitis doloremque cum neque. Quidem repellat
+          deserunt incidunt assumenda nemo distinctio, voluptatibus itaque,
+        </p>
+        <img src="img\london.jfif" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          iusto perferendis iste debitis doloremque cum neque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quas
+          blanditiis corrupti ipsam sapiente adipisci fuga. Vitae quia animi
+          corrupti at eveniet! Unde fugit quasi eaque esse vitae. Obcaecati,
+          dolorum.
+        </p>
+      </div>
+
+      <div class="two">
         <h1>What To Do</h1>
-        <img src="img\london-aerial-thames-guide-xlarge copy.webp" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, iusto perferendis iste debitis doloremque cum neque. Quidem repellat deserunt incidunt assumenda nemo distinctio, voluptatibus itaque, commodi doloribus cupiditate libero dicta?</p>
-    <img src="img\e4f30f70-a6c6-11e8-bc7c-0242ac110002.jpg" alt="">
-    </div>
+        <img src="img\london-aerial-thames-guide-xlarge copy.webp" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          iusto perferendis iste debitis doloremque cum neque. Quidem repellat
+          deserunt incidunt assumenda nemo distinctio, voluptatibus itaque,
+          commodi doloribus cupiditate libero dicta?
+        </p>
+        <img src="img\e4f30f70-a6c6-11e8-bc7c-0242ac110002.jpg" alt="" />
+      </div>
 
-    <div class="three">
+      <div class="three">
         <h1>Sightseeings</h1>
-        <img src="img\london7.jpg" alt="sightseeing">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, iusto perferendis iste debitis doloremque cum neque. Quidem repellat deserunt incidunt assumenda nemo distinctio, voluptatibus itaque, commodi doloribus cupiditate libero dicta?</p>
-    </div>
+        <img src="img\london7.jpg" alt="sightseeing" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          iusto perferendis iste debitis doloremque cum neque. Quidem repellat
+          deserunt incidunt assumenda nemo distinctio, voluptatibus itaque,
+          commodi doloribus cupiditate libero dicta?
+        </p>
+      </div>
 
-    <div class="four">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, iusto perferendis iste debitis doloremque cum neque. Quidem repellat deserunt incidunt assumenda nemo distinctio, voluptatibus itaque, commodi doloribus cupiditate libero dicta?</p>
+      <div class="four">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          iusto perferendis iste debitis doloremque cum neque. Quidem repellat
+          deserunt incidunt assumenda nemo distinctio, voluptatibus itaque,
+          commodi doloribus cupiditate libero dicta?
+        </p>
+      </div>
     </div>
-    </div>
-<footer>
-    <div class="foot">
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias cum vel optio ad, corporis facere inventore aperiam debitis veniam, adipisci sint fugiat et, provident id esse quod placeat fugit.</p> 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum corporis modi similique quasi alias sint. Dignissimos rerum, vel et ipsa consequatur quas, quidem dolores eaque inventore obcaecati, enim blanditiis.</p>
-   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo alias ex magnam, voluptates neque eos necessitatibus enim sapiente tempore, ipsam quae, quibusdam illum? Repellendus fuga iure ad facere eveniet.</p>
-</div>
- <p id="copy"> <b>Copyright © 2022</b></p> 
-</footer>
-    </body>
-
-    
+    <footer>
+      <div class="foot">
+        <div class="foot1">
+           <p>Where London lies?</p> 
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="240" height="191" id="gmap_canvas" src="https://maps.google.com/maps?q=london&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:191px;width:240px;}</style><a href="https://www.embedgooglemap.net">google map for web</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:191px;width:240px;}</style></div></div>
+        </div>
+        <div class="foot2">
+          <br>
+          <h3>More info</h3>
+          <ul>
+            <li>ORA Our Story Why ORA?</li>
+            <li>Accreditations</li>
+            <li> For Parents</li>
+            <li>or Educators</li>
+            <li>Our Team</li>
+            <li>Articles</li>
+            <li> News Privacy</li>
+            <li>Notice & Cookie</li>
+            </ul>
+        </div>
+        <div class = "foot3">
+          <br>
+          <h3>Additional links</h3>
+          <ul>
+          <li>Feedback</li>
+          <li>Entry level talent</li>
+          <li> Roles</li>
+          <li>Search & Apply</li>
+          <li>Who we are</li>
+          <li>Working here</li>
+          <li> Social Media</li>
+          </ul>
+        </div>
+      </div>
+      <p id="copy"><b>Copyright © 2022</b></p>
+    </footer>
+    <script src="/slideshow.js"></script>
+  </body>
 </html>
