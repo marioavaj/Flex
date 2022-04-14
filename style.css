@@ -117,21 +117,21 @@ h1 {
 
 .foot {
   display:grid;
-  color: white;
+  grid-template-columns: 2fr 1.5fr 1fr ;
+  color:gold;
   font-family: 'Tahoma', Geneva, Verdana, sans-serif;
   font-size: small;
-  grid-template-columns: 1fr 1fr 1fr ;
+  line-height: 2;
   background-color: rgb(6, 45, 152);
-  padding-left: 1em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 100%;
+  padding-left: 2em;
   border-radius: 10px, 10px, 0px, 0px;
   margin-top: 5px;
 }
 
-.foot2{
-    font-stretch: extra-expanded;
+ul{
+  list-style-type: none;   
 }
+
 
 
 footer #copy {
